@@ -1,0 +1,7 @@
+readers:
+  custom_addon:
+      module: pipeliner_addon.main
+      func: addon_reader
+  pipeliner:
+      module: pipeliner.readers
+      func: some_reader
